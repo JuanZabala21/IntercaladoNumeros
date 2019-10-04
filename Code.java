@@ -34,7 +34,6 @@ public class Intercalado extends JFrame{
       P3 = new JPanel(new FlowLayout());
       P4 = new JPanel(new FlowLayout()); 
       P5 = new JPanel(new GridLayout(4,2,0,0));
-      
       //Ubicar en los paneles
       //1
       P1.add(L1); P1.add(T1);
@@ -48,8 +47,7 @@ public class Intercalado extends JFrame{
       P5.add(P1); P5.add(P2); P5.add(P4);  P5.add(P3);
       //Container al panel 5
       C.add(P5);
-      
-        //Intercalar
+      //Intercalar
         B1.addActionListener(new ActionListener(){
           public void actionPerformed(ActionEvent ae) {
         String t1 = T1.getText();
